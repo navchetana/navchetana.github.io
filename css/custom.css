@@ -1,0 +1,200 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, section {
+	height: 100%;
+	position: relative;
+}
+.page1 {
+	background: url(../images/page1.jpg) left top no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.page2 {
+	background: url(../images/page2.jpg) left top no-repeat;
+	background-size: cover;
+}
+.page3 {
+	background: url(../images/page3.jpg) left top no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.page4 {
+	background: url(../images/page4.jpg) left top no-repeat;
+	background-size: cover;
+}
+
+.pageInside {
+	height:400px;
+	background: url(../images/page1.jpg) left top no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.PageTitlelBox{
+	position:absolute;
+	width:100%;
+	bottom:25%;
+	}
+.topLogo {
+	text-align: center !important;
+	width: 100%;
+	height: auto;
+	/*margin-top: 3%;*/
+}
+
+.imageRound{
+	-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+
+border: solid 10px #d6d6d6;
+	}
+.arrow {
+	display: inline-block;
+	width: 33px;
+	height: 17px;
+	position: absolute;
+	bottom: 20px;
+}
+.navbar-default .navbar-toggle {
+	border-color: #FFF;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #FFF;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #555;
+	border-color: #555;
+}
+.navbar-default {
+	background: none;
+	border: none;
+	z-index: 999;
+}
+.navbar-nav {
+	float: right;
+	clear: both;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #e77817;
+	padding: 0px;
+	padding-right: 25px;
+	font-size: 15px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #e7db17;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #570c0c;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: #510c0c;
+}
+.socialIcon {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	float: right;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+.socialIcon li {
+	display: inline-block;
+}
+.socialIcon a {
+	display: block;
+	height: 22px;
+	width: 23px;
+}
+.facebookIcon {
+	background: url(../images/socialIcon.png) -29px top no-repeat;
+}
+.facebookIcon:hover {
+	background: url(../images/socialIcon.png) -29px -25px no-repeat;
+}
+.twiterIcon {
+	background: url(../images/socialIcon.png) left top no-repeat;
+}
+.twiterIcon:hover {
+	background: url(../images/socialIcon.png) left -25px no-repeat;
+}
+.YouTubeIcon {
+	background: url(../images/socialIcon.png) -60px top no-repeat;
+}
+.YouTubeIcon:hover {
+	background: url(../images/socialIcon.png) -60px -25px no-repeat;
+}
+.flickrIcon {
+	background: url(../images/socialIcon.png) -88px top no-repeat;
+}
+.flickrIcon:hover {
+	background: url(../images/socialIcon.png) -88px -25px no-repeat;
+}
+.form-control {
+	padding: 30px 20px;
+	border: 3px solid #a5a59f;
+	margin-right: 20px;
+	font-family: 'OpenSansBold';
+	font-size: 18px;
+}
+.btnOrange {
+	padding-top: 11px;
+	padding-bottom: 11px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background: #e77817;
+	font-family: 'OpenSansBold';
+	font-size: 30px;
+	color: #fff;
+}
+.marginTop15p {
+	margin-top: 15%;
+}
+.marginTop10p {
+	margin-top: 10%;
+}
+.marginTop3p {
+	margin-top: 3%;
+}
+
+.flotReponsiveRight {
+	float: right;
+}
+
+footer {
+	padding-bottom:3%;
+	padding-top:3%;
+	}
+
+@media (max-width:767px) {
+.form-group {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.arrow {
+	display: none;
+}
+.flotReponsiveRight {
+	float: left;
+	width: 100%;
+}
+.socialIcon {
+	float: left;
+}
+.navbar-nav {
+	float: left;
+	margin-left: 10px;
+}
+.navbar-default {
+	background: #3b0505;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+.navbar-default .navbar-nav>li>a {
+	padding-bottom: 20px;
+}
+html, body, section {
+	height: auto;
+}
+}
