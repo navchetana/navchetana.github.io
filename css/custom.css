@@ -101,7 +101,7 @@ border: solid 10px #d6d6d6;
 	right:0px;
 	left:inherit;
 	}
-	
+
 .dropdown a{
 	color:#e77817;
 	}
@@ -181,6 +181,9 @@ border: solid 10px #d6d6d6;
 .marginTop3p {
 	margin-top: 3%;
 }
+.marginBottom3p {
+	margin-bottom: 3%;
+}
 
 .flotReponsiveRight {
 	float: right;
@@ -192,26 +195,26 @@ footer {
 	background:#39060a;
 	text-align:center;
 	color:#e77817;
-	
+
 	}
-	
+
 footer ul{
 	margin:0px;
 	padding:0px;
 	list-style:none;
-	
+
 	}
 	footer li{
 		display:inline-block;
-		margin-right:20px;	
+		margin-right:20px;
 	}
 	footer li a{
-	color:#e77817;	
+	color:#e77817;
 	text-decoration:none;
 	}
-	
+
 		footer li a:hover{
-	color:#e77817;	
+	color:#e77817;
 	text-decoration:underline;
 	}
 	footer li:last-child{
