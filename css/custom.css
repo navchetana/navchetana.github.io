@@ -24,6 +24,10 @@ html, body, section {
 	background-size: cover;
 }
 
+.page5 {
+	background: url(../images/page5.jpg) left top no-repeat;
+	background-size: cover;
+}
 .pageInside {
 	height:400px;
 	background: url(../images/page1.jpg) left top no-repeat;
@@ -71,6 +75,9 @@ border: solid 10px #d6d6d6;
 	border: none;
 	z-index: 999;
 }
+.navbar-nav > li{
+	margin-left:25px;
+	}
 .navbar-nav {
 	float: right;
 	clear: both;
@@ -78,7 +85,7 @@ border: solid 10px #d6d6d6;
 .navbar-default .navbar-nav>li>a {
 	color: #e77817;
 	padding: 0px;
-	padding-right: 25px;
+
 	font-size: 15px;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -90,6 +97,23 @@ border: solid 10px #d6d6d6;
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
 	border-color: #510c0c;
 }
+.dropdown-menu{
+	right:0px;
+	left:inherit;
+	}
+	
+.dropdown a{
+	color:#e77817;
+	}
+
+.dropdown a:hover{
+	color: #e7db17;
+	text-decoration:none;
+	}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus{
+	background:none;
+	text-decoration:none;
+	}
 .socialIcon {
 	margin: 0px;
 	padding: 0px;
@@ -131,11 +155,12 @@ border: solid 10px #d6d6d6;
 	background: url(../images/socialIcon.png) -88px -25px no-repeat;
 }
 .form-control {
-	padding: 30px 20px;
+	padding: 19px 20px;
 	border: 3px solid #a5a59f;
 	margin-right: 20px;
 	font-family: 'OpenSansBold';
 	font-size: 18px;
+	height:auto;
 }
 .btnOrange {
 	padding-top: 11px;
@@ -164,6 +189,33 @@ border: solid 10px #d6d6d6;
 footer {
 	padding-bottom:3%;
 	padding-top:3%;
+	background:#39060a;
+	text-align:center;
+	color:#e77817;
+	
+	}
+	
+footer ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	
+	}
+	footer li{
+		display:inline-block;
+		margin-right:20px;	
+	}
+	footer li a{
+	color:#e77817;	
+	text-decoration:none;
+	}
+	
+		footer li a:hover{
+	color:#e77817;	
+	text-decoration:underline;
+	}
+	footer li:last-child{
+		margin-right:0px;
 	}
 
 @media (max-width:767px) {
@@ -191,7 +243,7 @@ footer {
 	top: 0px;
 	width: 100%;
 }
-.navbar-default .navbar-nav>li>a {
+.navbar-nav > li{
 	padding-bottom: 20px;
 }
 html, body, section {
