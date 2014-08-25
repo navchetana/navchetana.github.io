@@ -48,11 +48,15 @@ html, body, section {
 
 .imageRound{
 	-webkit-border-radius: 50%;
--moz-border-radius: 50%;
-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: solid 10px #d6d6d6;
+}
 
-border: solid 10px #d6d6d6;
-	}
+.imageSquare{
+  border: solid 10px #d6d6d6;
+}
+
 .arrow {
 	display: inline-block;
 	width: 33px;
