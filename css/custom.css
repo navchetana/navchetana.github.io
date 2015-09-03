@@ -114,6 +114,9 @@ html, body, section {
 	color: #e7db17;
 	text-decoration:none;
 	}
+.dropdown li a{
+	color: #e77817
+}
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus{
 	background:none;
 	text-decoration:none;
