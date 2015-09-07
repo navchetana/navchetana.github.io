@@ -9,9 +9,10 @@
   <link href="fonts/font.css" rel="stylesheet" type="text/css">
   <link href="css/custom.css" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <script src="js/jquery-1.11.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/animate.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -26,17 +27,26 @@
               <li> <a href="https://www.facebook.com/pages/Sangharsh-Dhol-Tasha-Pathak-Ek-Parivar/459819230829589" class="facebookIcon" target="new"></a> </li>
               <li> <a href="https://twitter.com/sangharshpathak" class="twiterIcon" target="new"></a> </li>
               <li> <a href="https://www.youtube.com/channel/UCgSydVOe3K56RWGZcOenDdw" class="YouTubeIcon" target="new"></a> </li>
-              <!-- <li> <a href="#" class="YouTubeIcon" target="new"></a> </li> -->
               <li> <a href="https://www.flickr.com/photos/126010569@N05/" class="flickrIcon" target="new"></a> </li>
             </ul>
             <ul class="nav navbar-nav">
               <li> <a href="/registration-2015.docx">Registration 2015</a> </li>
               <li> <a href="/">Home</a> </li>
-              <li> <a href="/dhol_pathak.html">Dhol Pathak</a> </li>
+              <li> 
+				<div class="dropdown">
+					<a href="" data-toggle="dropdown">Dhol Pathak <span class="caret"></span> </a>
+					<ul class="dropdown-menu " role="menu" aria-labelledby="dLabel">
+						<li><a href="/dhol_pathak_2013.html"> 2013 </a></li>
+						<li><a href="/dhol_pathak_2014.html"> 2014 </a></li>
+						<li><a href="/dhol_pathak_2015.html"> 2015 </a></li>
+					</ul>
+                </div>
+
+			  </li>
               <li>
                 <div class="dropdown">
                   <a href="" data-toggle="dropdown">Activities <span class="caret"></span></a>
-                  <ul class="dropdown-menu " role="menu" aria-labelledby="dLabel" >
+                  <ul class="dropdown-menu " role="menu" aria-labelledby="dLabel">
                     <li>
                       <a href="/social_activities.html"> Social Activities </a>
                     </li>
@@ -44,17 +54,27 @@
                   </ul>
                 </div>
               </li>
+              <li> <a href="/member_stories.html">Member Stories</a> </li>
+              <li> <a href="/news.html">Sangharsh in News</a> </li>
+              <li> <a href="/feedback.html">Feedback</a> </li>
               <li> <a href="/blog.html">Blog</a> </li>
             </ul>
-          </div>
         </div>
       </nav>
-
       <div class="PageTitlelBox text-center">
         <h1 class="yellowTextColor">Sangharsh in News</h1>
       </div>
     </section>
     <div class='container'>
+
+        <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#news2015">2015</a></li>
+        <li><a data-toggle="tab" href="#news2014">2014</a></li>
+    </ul>
+    
+    
+    <div class="tab-content">
+    <div class="tab-pane fade in active" id="news2015">
 
         <div class="row ">
           <div class="col-sm-10 col-xs-offset-1 text-center marginTop3p" >
@@ -111,7 +131,11 @@
 
 
       </div>
-
+        <div class="tab-pane fade" id="news2014">
+            <hr>
+            Add 2014 News contents here
+        </div>
+      </div>
     </div>
           <footer>
             <div class="container">
