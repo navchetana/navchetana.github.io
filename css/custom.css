@@ -131,6 +131,9 @@ html, body, section {
 	background:none;
 	text-decoration:none;
 }
+.nav-tabs.custom-tab {
+	border-color: #E77817;
+}
 .nav-tabs.custom-tab li {
 	margin-right: 8px;
 }
@@ -144,6 +147,9 @@ html, body, section {
 .nav-tabs.custom-tab li a:hover, .nav-tabs.custom-tab li.active a {
 	background-color: #E77817;
 	color: #fff;
+}
+.social-activity-wrapper {
+	margin-top: 40px;
 }
 .socialIcon {
 	margin: 0px;
