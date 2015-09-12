@@ -28,6 +28,16 @@ html, body, section {
 	background: url(../images/page5.jpg) left top no-repeat;
 	background-size: cover;
 }
+
+.page6 {
+	background: url(../images/page6.jpg) left top no-repeat;
+	background-size: cover;
+}
+.page7 {
+	background: url(../images/page7.jpg) left top no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
 .pageInside {
 	height:400px;
 	background: url(../images/page1.jpg) left top no-repeat;
