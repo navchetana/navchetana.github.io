@@ -11,14 +11,15 @@
   <link href="fonts/font.css" rel="stylesheet" type="text/css">
   <link href="css/custom.css" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <script src="js/jquery-1.11.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/animate.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
   <section class="pageInside">
-    <nav class="navbar navbar-default" role="navigation" >
+   <nav class="navbar navbar-default" role="navigation" >
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
@@ -28,17 +29,27 @@
               <li> <a href="https://www.facebook.com/pages/Sangharsh-Dhol-Tasha-Pathak-Ek-Parivar/459819230829589" class="facebookIcon" target="new"></a> </li>
               <li> <a href="https://twitter.com/sangharshpathak" class="twiterIcon" target="new"></a> </li>
               <li> <a href="https://www.youtube.com/channel/UCgSydVOe3K56RWGZcOenDdw" class="YouTubeIcon" target="new"></a> </li>
-              <!-- <li> <a href="#" class="YouTubeIcon" target="new"></a> </li> -->
               <li> <a href="https://www.flickr.com/photos/126010569@N05/" class="flickrIcon" target="new"></a> </li>
             </ul>
             <ul class="nav navbar-nav">
+              <li> <a class="main-link" href="/dhol_pathak_2014.html">Last Years Ganesh Utsav</a> </li>
               <li> <a href="/registration-2015.docx">Registration 2015</a> </li>
               <li> <a href="/">Home</a> </li>
-              <li> <a href="/dhol_pathak.html">Dhol Pathak</a> </li>
+              <li> 
+				<div class="dropdown">
+					<a href="" data-toggle="dropdown">Dhol Pathak <span class="caret"></span> </a>
+					<ul class="dropdown-menu custom-menu" role="menu" aria-labelledby="dLabel">
+						<li><a href="/dhol_pathak_2013.html"> 2013 </a></li>
+						<li><a href="/dhol_pathak_2014.html"> 2014 </a></li>
+						<li><a href="/dhol_pathak_2015.html"> 2015 </a></li>
+					</ul>
+                </div>
+
+			  </li>
               <li>
                 <div class="dropdown">
                   <a href="" data-toggle="dropdown">Activities <span class="caret"></span></a>
-                  <ul class="dropdown-menu " role="menu" aria-labelledby="dLabel" >
+                  <ul class="dropdown-menu custom-menu" role="menu" aria-labelledby="dLabel">
                     <li>
                       <a href="/social_activities.html"> Social Activities </a>
                     </li>
@@ -46,9 +57,11 @@
                   </ul>
                 </div>
               </li>
-            <li> <a href="/blog.html">Blog</a> </li>
+              <li> <a href="/member_stories.html">Member Stories</a> </li>
+              <li> <a href="/news.html">Sangharsh in News</a> </li>
+              <li> <a href="/feedback.html">Feedback</a> </li>
+              <li> <a href="/blog.html">Blog</a> </li>
             </ul>
-          </div>
         </div>
       </nav>
 
@@ -56,9 +69,30 @@
         <h1 class="yellowTextColor">सामाजिक कार्यक्रम</h1>
       </div>
     </section>
-    <div class="container">
+    
+    <div class="container social-activity-wrapper">
+    <ul class="nav nav-tabs custom-tab">
+        <li class="active"><a data-toggle="tab" href="#sa2015">2015-16</a></li>
+        <li><a data-toggle="tab" href="#sa2014">2013-14</a></li>
+    </ul>
+    
+    
+    <div class="tab-content">
+    <div class="tab-pane fade " id="sa2014">
 
       <div class="row marginTop10p">
+        <div class="col-sm-10 col-xs-offset-1 text-center" >
+          <h2 class="redTextColor"> Memories in clicks </h2>
+
+          <div style="width:100%;height:500px;text-align:center;margin:auto;" ><object width="100%" height="500" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"> <param name="flashvars" value="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F126010569%40N05%2Fsets%2F72157646402397163%2Fshow&amp;page_show_back_url=%2Fphotos%2F126010569%40N05%2Fsets%2F72157646402397163%2F&amp;set_id=72157646402397163" /> <param name="allowFullScreen" value="true" /> <param name="src" value="https://www.flickr.com/apps/slideshow/show.swf?v=71649" /> <embed width="100%" height="500" type="application/x-shockwave-flash" src="https://www.flickr.com/apps/slideshow/show.swf?v=71649" flashvars="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F126010569%40N05%2Fsets%2F72157646402397163%2Fshow&amp;page_show_back_url=%2Fphotos%2F126010569%40N05%2Fsets%2F72157646402397163%2F&amp;set_id=72157646402397163" allowFullScreen="true" /> </object><br /><small>Created with <a href="http://www.flickrslideshow.com">flickr slideshow</a>.</small></div>
+
+          <br/>
+          <br/>
+        </div>
+      </div>
+
+        
+    <div class="row marginTop10p">
         <div class="col-sm-4">
           <img src="images/blood.jpg" class="imageRound img-responsive" alt=""/>
         </div>
@@ -191,8 +225,7 @@
           </P>
         </div>
       </div>
-
-      <div class="row marginTop10p">
+<div class="row marginTop10p">
         <div class="col-sm-4">
           <img src="images/orphanvisit.jpg" class="imageRound img-responsive" alt=""/>
         </div>
@@ -203,28 +236,148 @@
           </P>
         </div>
       </div>
+    </div>
+
+    <div class="tab-pane fade in active" id="sa2015">
 
       <div class="row marginTop10p">
         <div class="col-sm-10 col-xs-offset-1 text-center" >
-          <h2 class="redTextColor"> Photostream - Social Activities </h2>
+          <h2 class="redTextColor"> Memories in clicks </h2>
 
-          <div style="width:100%;height:500px;text-align:center;margin:auto;" ><object width="100%" height="500" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"> <param name="flashvars" value="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F126010569%40N05%2Fsets%2F72157646402397163%2Fshow&amp;page_show_back_url=%2Fphotos%2F126010569%40N05%2Fsets%2F72157646402397163%2F&amp;set_id=72157646402397163" /> <param name="allowFullScreen" value="true" /> <param name="src" value="https://www.flickr.com/apps/slideshow/show.swf?v=71649" /> <embed width="100%" height="500" type="application/x-shockwave-flash" src="https://www.flickr.com/apps/slideshow/show.swf?v=71649" flashvars="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F126010569%40N05%2Fsets%2F72157646402397163%2Fshow&amp;page_show_back_url=%2Fphotos%2F126010569%40N05%2Fsets%2F72157646402397163%2F&amp;set_id=72157646402397163" allowFullScreen="true" /> </object><br /><small>Created with <a href="http://www.flickrslideshow.com">flickr slideshow</a>.</small></div>
+          <div style="width:840px;height:500px;text-align:center;margin:auto;" ><object width="840" height="500" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"> <param name="flashvars" value="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F135408089%40N04%2Fsets%2F72157658499363556%2Fshow&amp;page_show_back_url=%2Fphotos%2F135408089%40N04%2Fsets%2F72157658499363556%2F&amp;user_id=135408089@N04&amp;set_id=72157658499363556" /> <param name="allowFullScreen" value="true" /> <param name="src" value="https://www.flickr.com/apps/slideshow/show.swf?v=71649" /> <embed width="840" height="500" type="application/x-shockwave-flash" src="https://www.flickr.com/apps/slideshow/show.swf?v=71649" flashvars="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F135408089%40N04%2Fsets%2F72157658499363556%2Fshow&amp;page_show_back_url=%2Fphotos%2F135408089%40N04%2Fsets%2F72157658499363556%2F&amp;user_id=135408089@N04&amp;set_id=72157658499363556" allowFullScreen="true" /> </object><br /><small>Created with <a href="http://www.flickrslideshow.com">flickr slideshow</a>.</small></div>
 
           <br/>
           <br/>
         </div>
       </div>
 
+        <div class="row marginTop10p">
+        <div class="col-sm-4 flotReponsiveRight">
+          <img src="images/orphanvisit.jpg" class="imageRound img-responsive" alt=""/>
+        </div>
+        <div class="col-sm-8 text-justify">
+          <h2 class="redTextColor"> संक्षिप्त प्रस्तावना </h2>
+          <P class="GrayTextColor">
+संघर्ष ढोल ताशा पथक आणि सामाजिक उपक्रम ह्या एकाच
+नाण्याच्या दोन बाजू आहेत. संघर्षची मानसिकताच वेगळी आहे.
+आपण ज्या समाजात राहतो त्या समजलं आपण काहीतरी देणं लागतं
+हीच आमची मानसिकता....
+</p>
+<P class="GrayTextColor">
+"दोन हातात मावेल एवढेच आपले, बाकी समाजाचे" असे सुप्रसिद्ध
+अभिनेते मा. नाना पाटेकर यांचे विचार आम्ही नेहमीच जोपासतो.
+विविध पद्धतीने समाजाला मदत करून नवीन नवीन उपक्रम
+राबवण्याचा प्रयत्न करतो. मग तो रस्त्यावरचा अपघात असो वा
+रुग्णवाहिकेला मार्ग करून देणे असो, ह्या छोट्या छोट्या
+गोष्टींना आम्ही आमचे कर्तव्यच समजतो. आम्ही आमचे पर्यावरण
+दूषित होणार नाही याची पूर्ण काळजी घेतो. मग आमचे खिसे
+कचर्‍याने भरले तरी चालतील पण आम्ही पर्यावरणाला जपण्याचा
+पूर्ण प्रयत्न करतो.
+</p>
+<P class="GrayTextColor">
+तरुण पिढीला एकत्रित करणे आणि त्यांना योग्य मार्गावर आणणे
+हा सामाजिक उपक्रमामागे मुख्य उद्धेश आहे.          </P>
+        </div>
+      </div>
+
+	    <div class="row marginTop10p">
+        <div class="col-sm-4 ">
+          <img src="images/social_work/aajiajoba.JPG" class="imageRound img-responsive" alt=""/>
+        </div>
+        <div class="col-sm-8 text-justify">
+          <h2 class="redTextColor">आजी आजोबा</h2>
+          <P class="GrayTextColor">
+तुमचा सहवास  लाभला आम्हास असा , जणु लोखंडाला परीसाचा स्पर्श जसा . ह्या विचाराने आमचा आजी आजोबांन बरोबरचा सुरू झालेला तो दोन दिवसांचा प्रवास  हृदयस्पर्शी होता . त्यांचा संपूर्ण आयुष्यातल्या खडतर प्रवासातुन  थोडासा विसावा  मिळावा हाच आमचा प्रामाणिक प्रयत्न  होता .
+मग तो एखाद्या आजोबांचा वाढदिवस साजरा करणे असो. त्यांचे फोटोज काढणे असो, कि मग त्यांच्या साठी केलेली ती मेजवाणी असो . एवढेच नव्हे, तर त्यांच्या बरोबर मनसोक्त गप्पा आणि त्यांच्या भावना समजून घेणं असो...
+</p>
+        </div>
+      </div>
+	  
+  <div class="row marginTop10p">
+        <div class="col-sm-4 flotReponsiveRight">
+          <img src="images/social_work/blooddonation.jpg" class="imageRound img-responsive" alt=""/>
+        </div>
+        <div class="col-sm-8 text-justify">
+          <h2 class="redTextColor">रक्तदान</h2>
+          <P class="GrayTextColor">
+गरजू व्यक्तींजवळ जाऊन रक्तदान करा, त्यांच्याशी रक्ताची नाती
+तयार करा. आम्ही पथकातील वादक व त्याच्या कुटुंबातील व्यक्ति
+यांच्या रक्तगटाची माहिती जमा करून अडचणीच्या वेळी, गरज
+लागेल त्या रक्तगटाच्या व्यक्ति रुग्णालयात उपलब्ध करून देतो.
+</p>
+        </div>
+      </div>
+	  
+	    <div class="row marginTop10p">
+        <div class="col-sm-4 ">
+          <img src="images/restoration.jpg" class="imageRound img-responsive" alt=""/>
+        </div>
+        <div class="col-sm-8 text-justify">
+          <h2 class="redTextColor">गड संवर्धन</h2>
+          <P class="GrayTextColor">
+महाराष्ट्रचा ऐतिहासिक ठेवा म्हणजेच आपले गड. आपल्या या
+गडांची स्वच्छता राखण्याचा व कचरा न करण्याचा आम्ही
+प्रामाणिक प्रयत्न करतो. गिर्यारोहणाला (Trekking)
+गेल्यावर आम्ही कुठेही कचरा होऊ देत नाही व असलेली अस्वच्छता
+आम्ही दूर करतो.
+</p>
+        </div>
+      </div>
+	  
+	  
+	      <div class="row marginTop10p">
+        <div class="col-sm-4 flotReponsiveRight">
+          <img src="images/social_work/treeplantation.jpg" class="imageRound img-responsive" alt=""/>
+        </div>
+        <div class="col-sm-8 text-justify">
+          <h2 class="redTextColor"> वृक्षारोपण उपक्रम </h2>
+          <P class="GrayTextColor">
+पथकाच्या वर्धापणदिना दिवशी जवळपास 30 हून अधिक रोपे लावण्यात आली.
+</p>
+        </div>
+      </div>
+	  
+	  
+	      <div class="row marginTop10p">
+        <div class="col-sm-4 ">
+          <img src="images/orphanvisit.jpg" class="imageRound img-responsive" alt=""/>
+        </div>
+        <div class="col-sm-8 text-justify">
+          <h2 class="redTextColor"> हात मदतीचा </h2>
+          <P class="GrayTextColor">
+जुने कपडे, खेळणी. चपला, औषधे, जुनी पुस्तके, संगीत साहित्य इ.
+पद्धतीची देखील गरजू अनाथ आश्रमाला मदत करतो. पथकातील
+कोणत्याही वादकाचे घराचे साहित्य शिफ्टिंग असो, पथकातील
+अनेक ताई-दादा मदतीस धावून जातात.</p>
+        </div>
+      </div>
+	  
+	  	      <div class="row marginTop10p">
+        <div class="col-sm-4 flotReponsiveRight">
+          <img src="images/eye.jpg" class="imageRound img-responsive" alt=""/>
+        </div>
+        <div class="col-sm-8 text-justify">
+          <h2 class="redTextColor"> नेत्रदान </h2>
+          <P class="GrayTextColor">
+अंधांचे जीवन प्रकाशमय करण्यासाठी आम्ही नेत्रदानाचा संकल्प
+केला आहे. त्यासाठी आम्ही अनेक वादकांचे मरणोत्तर नेत्रदानाचा
+फॉर्म भरून घेतो.
+</p>
+        </div>
+      </div>
+	  
+      </div>
 
     </div>
-
+    </div>
+</div>
     <footer>
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <ul >
               <li> <a href="/">Home</a> </li>
-              <li> <a href="/dhol_pathak.html">Dhol Pathak</a> </li>
+              <li> <a href="/dhol_pathak_2013.html">Dhol Pathak</a> </li>
               <li> <a href="/social_activities.html">Social Activites</a> </li>
               <li> <a href="/treks.html">Treks</a> </li>
               <li> <a href="/member_stories.html">Member Stories</a> </li>
@@ -234,7 +387,7 @@
           </div>
         </div>
         <div class="row marginTop3p">
-          <div class="col-sm-12">Copyright 2014 @ Navchetna Charitable Trust</div>
+          <div class="col-sm-12">Copyright 2015 @ Navchetna Charitable Trust</div>
         </div>
       </div>
     </footer>
