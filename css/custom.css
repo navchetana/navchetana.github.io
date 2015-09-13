@@ -55,6 +55,15 @@ html, body, section {
 	height: auto;
 	/*margin-top: 3%;*/
 }
+.imageborder {
+	border: solid 10px #d6d6d6;
+}
+
+.navbar-default .navbar-nav > li > a.main-link {
+	font-size: 20px;
+    font-weight: bold;
+    margin-top: -3px;
+}
 
 .imageRound{
 	-webkit-border-radius: 50%;
