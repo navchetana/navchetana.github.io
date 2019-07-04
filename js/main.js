@@ -27,7 +27,7 @@ var top_menu =
 
 var bottom_menu =
   '<div class="container"><div class="row"><div class="col-sm-12"><ul ><li> <a href="' +
-  '">Home</a> </li><li> <a href="' +
+  './index.html">Home</a> </li><li> <a href="' +
   './dhol_pathak_2018.html">Dhol Pathak</a> </li><li> <a href="' +
   './social_activities.html">Social Activites</a> </li><li> <a href="' +
   './treks.html">Treks</a> </li><li> <a href="' +
