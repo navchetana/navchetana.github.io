@@ -28,7 +28,7 @@ var top_menu =
   './news.html">Sangharsh in News</a> </li><li> <a href="' +
   './practice.html">Practice Session & धमाल</a></li><li> <a href="' +
   './blog.html">Blog</a></li>'+
-  '<li><a href="./quarantinevadan.html"> Quarantine Vadan </a></li></ul></div>';
+  '<li><a href="./quarantinevaadan.html"> Quarantine Vadan </a></li></ul></div>';
 
 var bottom_menu =
   '<div class="container"><div class="row"><div class="col-sm-12"><ul ><li> <a href="' +
