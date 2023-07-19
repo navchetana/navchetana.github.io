@@ -5,7 +5,7 @@ var cur_year = cur_date.getFullYear();
 
 var top_menu =
   '<div class="container-fluid"> <div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button><a class="navbar-brand visible-xs" href="#page-top"><img src="images/smallLogo.png" alt="" style="width:30px; margin-top:-5px;" ></a></div> <div class="collapse navbar-collapse navbar-ex1-collapse"><ul class="socialIcon"><li> <a href="https://www.facebook.com/pages/Sangharsh-Dhol-Tasha-Pathak-Ek-Parivar/459819230829589" class="facebookIcon" target="new"></a> </li><li> <a href="https://twitter.com/sangharshpathak" class="twiterIcon" target="new"></a> </li><li> <a href="https://www.youtube.com/channel/UCkAm8mgEZZZLehP5pfLDhaA" class="YouTubeIcon" target="new"></a> </li><li> <a href="https://www.flickr.com/photos/126010569@N05/" class="flickrIcon" target="new"></a> </li></ul><ul class="nav navbar-nav"><li> <a class="main-link" href="' +
-  './dhol_pathak_2019.html">Last Year Ganesh Utsav</a></li> <!--<li><a href="' +
+  './dhol_pathak_2019  .html">Last Year Ganesh Utsav</a></li> <!--<li><a href="' +
   './registration.html">Registration 2019</a></li>--> <li><a href="' +
   './index.html">Home</a></li> <li><div class="dropdown"><a href="" data-toggle="dropdown">Dhol Pathak <span class="caret"></span></a> <ul class="dropdown-menu custom-menu" role="menu" aria-labelledby="dLabel"> <li><a href="' +
   './dhol_pathak_2013.html"> 2013 </a></li><li><a href="' +
@@ -15,7 +15,8 @@ var top_menu =
   './dhol_pathak_2017.html"> 2017 </a></li><li><a href="' +
   './dhol_pathak_2018.html"> 2018 </a></li><li><a href="' +
   './dhol_pathak_2019.html"> 2019 </a></li><li><a href="' +
-  './dhol_pathak_2020.html"> 2020 </a></li></ul></div></li> <li><div class="dropdown"><a href="" data-toggle="dropdown">Activities <span class="caret"></span></a> <ul class="dropdown-menu custom-menu" role="menu" aria-labelledby="dLabel"> <li><a href="' +
+  './dhol_pathak_2020.html"> 2020 </a></li><li><a href="' +
+  './dhol_pathak_2021.html"> 2021 </a></li></ul></div></li> <li><div class="dropdown"><a href="" data-toggle="dropdown">Activities <span class="caret"></span></a> <ul class="dropdown-menu custom-menu" role="menu" aria-labelledby="dLabel"> <li><a href="' +
   './social_activities.html"> Social Activities </a></li> <li><a href="' +
   './treks.html"> Treks </a></li> <li><a href="'+
   './yuva.html"> युवा उद्योजक </a></li> <li><a href="'+
@@ -23,12 +24,14 @@ var top_menu =
   './letter_to_pm.html"> Letter to Prime Minister </a></li> <li><a href="'+
   './blood_donation_in_covid.html"> Blood Donation in Covid </a></li> <li><a href="'+
   './rakshabandhan.html"> Raksha Bandhan </a></li> <li><a href="'+
-  './notebook_distribution.html"> Book Donation </a></li></li></ul> </div></li><li><a href="' +
+  './quarantinevaadan.html"> Quarantine Vadan </a></li><li><a href="'+
+  './sakaalvadan.html"> Sakaal Vadan </a></li><li><a href="'+
+  './notebook_distribution.html"> Book Donation </a></li></li></ul> </div></li> <li> <a href="' +
+  './farewell.html">Farewell</a></li><li><a href="' +
   './member_stories.html">Member Stories</a> </li><li> <a href="' +
   './news.html">Sangharsh in News</a> </li><li> <a href="' +
   './practice.html">Practice Session & धमाल</a></li><li> <a href="' +
-  './blog.html">Blog</a></li>'+
-  '<li><a href="./quarantinevaadan.html"> Quarantine Vadan </a></li></ul></div>';
+  './about_us.html">About Us</a></li></ul></div>';
 
 var bottom_menu =
   '<div class="container"><div class="row"><div class="col-sm-12"><ul ><li> <a href="' +
