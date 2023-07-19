@@ -5,7 +5,7 @@ var cur_year = cur_date.getFullYear();
 
 var top_menu =
   '<div class="container-fluid"> <div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button><a class="navbar-brand visible-xs" href="#page-top"><img src="images/smallLogo.png" alt="" style="width:30px; margin-top:-5px;" ></a></div> <div class="collapse navbar-collapse navbar-ex1-collapse"><ul class="socialIcon"><li> <a href="https://www.facebook.com/pages/Sangharsh-Dhol-Tasha-Pathak-Ek-Parivar/459819230829589" class="facebookIcon" target="new"></a> </li><li> <a href="https://twitter.com/sangharshpathak" class="twiterIcon" target="new"></a> </li><li> <a href="https://www.youtube.com/channel/UCkAm8mgEZZZLehP5pfLDhaA" class="YouTubeIcon" target="new"></a> </li><li> <a href="https://www.flickr.com/photos/126010569@N05/" class="flickrIcon" target="new"></a> </li></ul><ul class="nav navbar-nav"><li> <a class="main-link" href="' +
-  './dhol_pathak_2019  .html">Last Year Ganesh Utsav</a></li> <!--<li><a href="' +
+  './dhol_pathak_2021.html">Last Year Ganesh Utsav</a></li> <!--<li><a href="' +
   './registration.html">Registration 2019</a></li>--> <li><a href="' +
   './index.html">Home</a></li> <li><div class="dropdown"><a href="" data-toggle="dropdown">Dhol Pathak <span class="caret"></span></a> <ul class="dropdown-menu custom-menu" role="menu" aria-labelledby="dLabel"> <li><a href="' +
   './dhol_pathak_2013.html"> 2013 </a></li><li><a href="' +
